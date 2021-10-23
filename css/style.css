@@ -1,0 +1,296 @@
+/* &display=swap&subset=cyrillic-ext  */
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:regular,700,900&display=swap&subset=cyrillic-ext");
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	vertical-align: middle;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+	height: 100%;
+}
+html {
+	font-size: 16px;
+	line-height: 24px;
+}
+body {
+	font-family: "roboto", sans-serif;
+	text-align: center;
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+/* ------------------------------ */
+
+.main {
+	background-color: #f5f5f5;
+}
+.header,
+.footer {
+	padding: 50px;
+}
+.header__title,
+.footer__link {
+	color: #f2726f;
+	font-size: 50px;
+	font-weight: 900;
+}
+.main__container_margin-131 {
+	margin: 0px auto 131px auto;
+}
+.promises {
+	max-width: 1020px;
+}
+.promises__heading {
+	margin: 0px 0px 68px 0px;
+}
+.titles {
+	text-align: left;
+	max-width: 583px;
+}
+.titles__title {
+	color: #5d62b5;
+	font-size: 12px;
+	font-weight: 700;
+	line-height: 24px;
+	letter-spacing: 2.5px;
+	text-transform: uppercase;
+	margin: 0px 0px 33px 0px;
+}
+.titles__title::before {
+	content: "";
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	margin-right: 10px;
+	background: url("../img/OverlineMark.png") 0 50% / 20px 20px no-repeat;
+}
+.titles__subtitle {
+	font-size: 36px;
+	line-height: 42px;
+	font-weight: 900;
+}
+.promises__items {
+	font-size: 0;
+}
+.promises__item:not(:last-of-type) {
+	margin: 0px 24px 0px 0px;
+}
+.promises__item {
+	display: inline-block;
+	max-width: 324px;
+	vertical-align: top;
+	text-align: left;
+}
+.promises__img {
+	display: inline-block;
+	margin: 0px 23px 0px 0px;
+	max-width: 56px;
+}
+.promises__content {
+	display: inline-block;
+	max-width: 245px;
+	vertical-align: top;
+}
+.promises__title {
+	color: #f2726f;
+	font-size: 19px;
+	line-height: 26px;
+	font-weight: 900;
+	margin: 0px 0px 20px 0px;
+}
+.promises__text {
+	color: #4b4b4b;
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.15px;
+}
+.main__container_margin-110 {
+	margin: 0px auto 110px auto;
+}
+.running-pup {
+	text-align: left;
+	max-width: 1440px;
+	min-height: 500px;
+	background: url("../img/BG.jpg") 50% / cover no-repeat;
+	padding: 112px 210px 0px 819px;
+}
+.running-pup__title {
+	color: #fff;
+	font-size: 36px;
+	line-height: 42px;
+	font-weight: 700;
+	margin-bottom: 45px;
+}
+.button {
+	display: inline-block;
+	min-height: 48px;
+	padding: 17px 35px;
+	color: #fff;
+	text-align: center;
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 24px;
+	letter-spacing: 0.15px;
+	text-transform: uppercase;
+	background: #f2726f;
+	border-radius: 10px;
+}
+.services {
+	max-width: 1020px;
+}
+.services__row {
+	font-size: 0px;
+	margin-bottom: 24px;
+}
+.services__row:last-of-type {
+	margin-bottom: 61px;
+}
+.services__block {
+	display: inline-block;
+	width: 324px;
+	min-height: 340px;
+	text-align: center;
+	background: #fff;
+	border-radius: 20px;
+	padding: 50px 44px;
+	vertical-align: middle;
+}
+.services__block:not(:last-of-type) {
+	margin-right: 24px;
+}
+.services__block:hover {
+	box-shadow: 0px 16px 24px 0px rgba(38, 38, 38, 0.2);
+}
+.services__img {
+	height: 64px;
+	margin: 0px 0px 30px 0px;
+}
+.services__heading {
+	margin-bottom: 78px;
+}
+.services__title {
+	color: #f2726f;
+	font-size: 19px;
+	line-height: 26px;
+	font-weight: 900;
+	margin: 0px 0px 20px 0px;
+}
+.services__text {
+	color: #4b4b4b;
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.15px;
+}
+.main__container_margin-0 {
+	margin: 0px auto;
+}
+.impact {
+	background: url("../img/BG2.jpg") 50% / cover no-repeat;
+	padding: 112px 0px 134px 0px;
+	text-align: center;
+	max-width: 1440px;
+}
+.impact__inner {
+	margin: 0 auto;
+	max-width: 1020px;
+	text-align: center;
+}
+.impact__top {
+	font-size: 0px;
+	text-align: left;
+	margin-bottom: 79px;
+}
+.impact__heading {
+	margin: 0px 111px 0px 0px;
+	max-width: 411px;
+	display: inline-block;
+}
+.titles__title_white {
+	color: #fff;
+}
+.titles__title_white::before {
+	content: "";
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	margin-right: 10px;
+	background: url("../img/OverlineMarkWhite.svg") 0 50% / 20px 20px no-repeat;
+}
+.titles__subtitle_white {
+	color: #fff;
+}
+.impact__image {
+	max-width: 498px;
+	max-height: 315px;
+	border-radius: 40px;
+	display: inline-block;
+	margin: -192px 0px 0px 0px;
+}
+.impact__items {
+	font-size: 0px;
+}
+.impact__item {
+	display: inline-block;
+	width: 237px;
+	vertical-align: top;
+}
+.impact__item:not(:last-of-type) {
+	margin-right: 24px;
+}
+.impact__img {
+	width: 76px;
+	height: 76px;
+	margin-right: 11px;
+	vertical-align: top;
+}
+.impact__content {
+	display: inline-block;
+	width: 150px;
+	text-align: left;
+	vertical-align: top;
+}
+.impact__title {
+	color: #fff;
+	font-size: 36px;
+	line-height: 42px;
+	font-weight: 900;
+	margin-bottom: 3px;
+}
+.impact__text {
+	color: #5d62b5;
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.15px;
+	font-weight: 700;
+}
